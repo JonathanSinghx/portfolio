@@ -106,6 +106,13 @@ nav {
   box-shadow: 0 0 20px rgba(78, 231, 245, 0.24);
 }
 
+.brand-logo {
+  height: 2.2rem;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
