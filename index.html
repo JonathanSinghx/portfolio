@@ -118,25 +118,6 @@
               </div>
             </article>
 
-            <article class="project-card with-media">
-              <div class="project-media">
-                <video class="project-video" controls preload="metadata" playsinline aria-label="Docket demo video">
-                  <source src="assets/Docket%20Demo.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="project-content">
-                <div class="chip" style="color: var(--violet)">Public Platform</div>
-                <h4>Docket</h4>
-                <p>Task management web app focused on simple user flows, clear information architecture, and reliable end-to-end delivery.</p>
-                <div class="project-links">
-                  <a href="https://docket-task-manager.netlify.app/" target="_blank" rel="noreferrer">Visit app</a>
-                </div>
-                <div class="chips">
-                  <span class="chip">Web App</span>
-                  <span class="chip">Product UX</span>
-                </div>
-              </div>
-            </article>
 
             <article class="project-card">
               <div class="chip" style="color: var(--cyan)">Fintech • AI</div>
@@ -167,9 +148,9 @@
           <div class="projects-grid compact">
             <article class="project-card with-media">
               <div class="project-media">
-                <video class="project-video" controls preload="metadata" playsinline aria-label="NMIA Wheelchair App demo video">
-                  <source src="assets/WheelApp%20Demo.mp4" type="video/mp4">
-                </video>
+                <button class="video-demo-btn" data-video="assets/WheelApp%20Demo.mp4" aria-label="View NMIA Wheelchair App demo">
+                  <span class="video-demo-text">View Demo</span>
+                </button>
               </div>
               <div class="project-content">
                 <div class="chip" style="color: var(--cyan)">Airport Logistics</div>
@@ -185,9 +166,9 @@
 
             <article class="project-card with-media">
               <div class="project-media">
-                <video class="project-video" controls preload="metadata" playsinline aria-label="Baggage Delivery App demo video">
-                  <source src="assets/Bag%20App%20Demo.mp4" type="video/mp4">
-                </video>
+                <button class="video-demo-btn" data-video="assets/Bag%20App%20Demo.mp4" aria-label="View Baggage Delivery App demo">
+                  <span class="video-demo-text">View Demo</span>
+                </button>
               </div>
               <div class="project-content">
                 <div class="chip" style="color: var(--lime)">Airport Operations</div>
@@ -200,21 +181,12 @@
               </div>
             </article>
 
-            <article class="project-card">
-              <div class="chip" style="color: var(--orange)">Administration</div>
-              <h4>PAW Pet Administration App</h4>
-              <p>Administrative system for managing pet-related records and workflows with cleaner data entry and easier internal tracking.</p>
-              <div class="chips">
-                <span class="chip">Private Demo</span>
-                <span class="chip">Admin Tools</span>
-              </div>
-            </article>
 
             <article class="project-card with-media">
               <div class="project-media">
-                <video class="project-video" controls preload="metadata" playsinline aria-label="Y-Wait Banking demo video">
-                  <source src="assets/y-wait%20demo.mp4" type="video/mp4">
-                </video>
+                <button class="video-demo-btn" data-video="assets/y-wait%20demo.mp4" aria-label="View Y-Wait Banking demo">
+                  <span class="video-demo-text">View Demo</span>
+                </button>
               </div>
               <div class="project-content">
                 <div class="chip" style="color: var(--cyan)">Banking Concept</div>
@@ -227,6 +199,26 @@
                 </div>
               </div>
             </article>
+
+            <article class="project-card with-media">
+              <div class="project-media">
+                <button class="video-demo-btn" data-video="assets/Docket%20Demo.mp4" aria-label="View Docket demo">
+                  <span class="video-demo-text">View Demo</span>
+                </button>
+              </div>
+              <div class="project-content">
+                <div class="chip" style="color: var(--violet)">Task Management</div>
+                <h4>Docket</h4>
+                <p>Task management web app focused on simple user flows, clear information architecture, and reliable end-to-end delivery.</p>
+                <div class="project-links">
+                  <a href="https://docket-task-manager.netlify.app/" target="_blank" rel="noreferrer">Visit app</a>
+                </div>
+                <div class="chips">
+                  <span class="chip">Web App</span>
+                  <span class="chip">Product UX</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -236,14 +228,14 @@
             <h3>Independent products and experiments built to solve practical problems.</h3>
           </div>
           <div class="projects-grid compact">
+
             <article class="project-card">
-              <div class="chip" style="color: var(--lime)">Consumer App</div>
-              <h4>GasTrack Jamaica</h4>
-              <p>Cross-platform fuel-price app using community reporting, price benchmarks, station filtering, maps, and photo-verified submissions.</p>
+              <div class="chip" style="color: var(--orange)">Administration</div>
+              <h4>PAW Pet Administration App</h4>
+              <p>Administrative system for managing pet-related records and workflows with cleaner data entry and easier internal tracking.</p>
               <div class="chips">
-                <span class="chip">Expo</span>
-                <span class="chip">Firebase</span>
-                <span class="chip">Google Maps</span>
+                <span class="chip">Private Demo</span>
+                <span class="chip">Admin Tools</span>
               </div>
             </article>
 
@@ -281,12 +273,14 @@
             </article>
 
             <article class="project-card">
-              <div class="chip" style="color: var(--lime)">API</div>
-              <h4>Gas Track Jamaica API</h4>
-              <p>Backend service for tracking Jamaican gas station prices and powering fuel-price discovery in the GasTrack mobile app.</p>
+              <div class="chip" style="color: var(--lime)">Consumer App</div>
+              <h4>GasTrack Jamaica</h4>
+              <p>Cross-platform fuel-price app using community reporting, price benchmarks, station filtering, maps, and photo-verified submissions. Includes a REST API for data management and third-party integrations.</p>
               <div class="chips">
-                <span class="chip">API Design</span>
-                <span class="chip">Data Modeling</span>
+                <span class="chip">Expo</span>
+                <span class="chip">Firebase</span>
+                <span class="chip">Google Maps</span>
+                <span class="chip">REST API</span>
               </div>
             </article>
           </div>
@@ -356,6 +350,21 @@
   <footer class="shell">
     <p>&copy; 2026 Jonathan Singh. Built with speed and care.</p>
   </footer>
+
+  <div id="video-modal" class="video-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="video-modal-backdrop"></div>
+    <div class="video-modal-content">
+      <button class="video-modal-close" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="video-modal-wrapper">
+        <video id="modal-video" class="modal-video" controls preload="metadata" playsinline></video>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js?v=20260616-title-square"></script>
 </body>
