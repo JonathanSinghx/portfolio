@@ -803,6 +803,29 @@ footer {
   box-shadow: 0 0 20px rgba(78, 231, 245, 0.3);
 }
 
+.video-demo-btn-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border: 1px solid rgba(78, 231, 245, 0.4);
+  border-radius: 999px;
+  color: var(--cyan);
+  background: rgba(78, 231, 245, 0.1);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(8px);
+}
+
+.video-demo-btn-inline:hover {
+  background: rgba(78, 231, 245, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(78, 231, 245, 0.2);
+}
+
 @media (max-width: 968px) {
   .about-panel,
   .category-heading {

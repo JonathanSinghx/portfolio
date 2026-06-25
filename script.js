@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalVideo = document.getElementById('modal-video');
   const modalClose = document.querySelector('.video-modal-close');
   const modalBackdrop = document.querySelector('.video-modal-backdrop');
-  const demoButtons = document.querySelectorAll('.video-demo-btn');
+  const demoButtons = document.querySelectorAll('.video-demo-btn, .video-demo-btn-inline');
 
   function openModal(videoSrc) {
     modalVideo.src = videoSrc;
