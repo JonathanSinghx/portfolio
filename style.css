@@ -817,7 +817,6 @@ footer {
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
-  backdrop-filter: blur(8px);
 }
 
 .video-demo-btn-inline:hover {
